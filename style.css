@@ -35,6 +35,19 @@ body {
     border-radius: 8px;
 }
 
+.project-card videos {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.projects video {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
 .label {
     margin-top: 10px;
     font-size: 16px;
@@ -49,5 +62,9 @@ body {
 }
 
 .projects img:hover {
+    transform: scale(1.05);
+}
+
+.projects video:hover {
     transform: scale(1.05);
 }
